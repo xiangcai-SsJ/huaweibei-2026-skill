@@ -1,0 +1,3 @@
+interface:
+  display_name: "数学建模竞赛论文"
+  short_description: "从赛题与结果生成可核验的完整竞赛论文"
