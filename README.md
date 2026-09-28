@@ -18,8 +18,22 @@ competition-modeling-paper/
 ├── agents/openai.yaml                技能列表显示信息
 └── references/
     ├── paper-structure.md            各章节要点、篇幅与常见错误
+    ├── problem-types.md              优化、预测、评价、仿真等题型的证据要求
     ├── quality-gates.md              成稿前、成稿后的双轮体检
     └── huawei-2026-d-case.md         2026 华为杯 D 题案例证据地图
 ```
 
 案例参考链接到[2026 华为杯 D 题项目归档](https://github.com/xiangcai-SsJ/huaweibei-2026)，并明确标注其审查尚未关闭的事项。案例数值只用于定位对应方案版本，使用时须重新核对最新文件与当届官方规定。
+
+## GitHub 写作技能对照
+
+本技能后续修订时阅读了以下仓库的实际技能文件，借鉴其可复用的检查思路，并按本技能“完整竞赛论文”交付目标重新组织：
+
+| 参考技能 | 纳入本技能的做法 |
+| --- | --- |
+| [math-modeling-paper-writing](https://github.com/djhguang/math-modeling-paper-writing/blob/main/SKILL.md) 与其[题型指南](https://github.com/djhguang/math-modeling-paper-writing/blob/main/references/manuscript-structure.md) | 根据材料成熟度决定可写结论；按优化、预测、评价、仿真等题型选择验证。 |
+| [manuscript-writing 修订清单](https://github.com/YSLAB-ai/manuscript-writing/blob/main/references/revision-checklist.md) | 改稿前梳理现有论证链；保留原有技术含义，避免用措辞掩盖证据缺口。 |
+| [citation-integrity-auditor](https://github.com/UCL-ERL/skills/blob/main/skills/writing/citation-integrity-auditor/SKILL.md) | 将引用检查细化到单个论断，先查高风险主张并区分来源身份与实际支持力度。 |
+| [math-modeling-skill](https://github.com/XiaoMaColtAI/math-modeling-skill/blob/main/SKILL.md) 与 [mma-paper](https://github.com/Trantormann/math-modeling/blob/main/mma-paper/SKILL.md) | 强化阶段性质量检查和尽早试导出正式模板。 |
+
+这些仓库的固定图数、打分阈值、角色划分和交付格式不是本技能的通用要求；是否采用由题目、用户要求和当届官方规则决定。
